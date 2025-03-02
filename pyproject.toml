@@ -1,0 +1,15 @@
+[project]
+name = "webhookimage"
+description = "This package provides a custom node to ComfyUI to send a message and image by means of a webhook"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["requests", "Pillow", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/JohanK66/ComfyUI-WebhookImage"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-WebhookImage"
+Icon = ""
